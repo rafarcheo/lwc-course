@@ -1,0 +1,15 @@
+
+*.egg-info
+*.pot
+*.py[co]
+lwc/.tox/
+lwc/__pycache__
+lwc/MANIFEST
+lwc/dist/
+lwc/docs/_build/
+lwc/docs/locale/
+lwc/node_modules/
+lwc/tests/coverage_html/
+lwc/tests/.coverage
+lwc/build/
+lwc/tests/report/
