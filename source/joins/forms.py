@@ -4,6 +4,7 @@ from .models import Join
 class JoinForm(forms.ModelForm):
 	class Meta:
 		model = Join
+		fields = ["email"]
 
 class EmailForm(forms.Form):
 	email = forms.EmailField()

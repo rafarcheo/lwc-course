@@ -9,4 +9,10 @@
 <input type="submit" value="SEND">
 </form>
 
+{% for join in joins %}
+	<div>
+	{{ forloop.counter }} : {{ join }}, {{ join.ip_address }}
+	</div>
+{% endfor %}
+
 {% endblock %}
